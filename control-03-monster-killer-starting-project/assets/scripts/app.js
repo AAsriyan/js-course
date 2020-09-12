@@ -168,6 +168,16 @@ function healPlayerHandler() {
 }
 
 function printLogHandler() {
+  // for (let i = 0; i < 3; i++) {
+  //   console.log('---------');
+  // }
+
+  for (const log of battleLog) {
+    console.log(log);
+    for (const key in log) {
+      console.log(`${key} -> ${log[key]}`);
+    }
+  }
   console.log(battleLog);
 }
 
