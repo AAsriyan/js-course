@@ -11,3 +11,5 @@ h1.style.color = 'red';
 
 const li = document.querySelector('li:last-of-type');
 li.textContent = li.textContent + ' (Changed!)';
+
+const body = document.body;
